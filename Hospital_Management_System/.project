@@ -34,6 +34,38 @@
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/main/webapp/img/img1.jpeg</name>
+			<type>1</type>
+			<location>/home/vinod/eclipse-workspace/Hospital_Management_System1/src/main/webapp/img/img1.jpeg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/img/img2.jpeg</name>
+			<type>1</type>
+			<location>/home/vinod/img/img2.jpeg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/img/img3.jpeg</name>
+			<type>1</type>
+			<location>/home/vinod/img/img3.jpeg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/img/img4.png</name>
+			<type>1</type>
+			<location>/home/vinod/img/img4.png</location>
+		</link>
+		<link>
+			<name>src/main/webapp/img/img5.png</name>
+			<type>1</type>
+			<location>/home/vinod/img/img5.png</location>
+		</link>
+		<link>
+			<name>src/main/webapp/img/ind1.jpg</name>
+			<type>1</type>
+			<location>/home/vinod/img/ind1.jpg</location>
+		</link>
+	</linkedResources>
 	<filteredResources>
 		<filter>
 			<id>1677700919459</id>

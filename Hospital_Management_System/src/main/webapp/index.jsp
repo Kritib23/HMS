@@ -45,11 +45,12 @@
 					<span class="carousel-control-next-icon" aria-hidden="true"></span>
 					<span class="visually-hidden">Next</span>
 				</button>
+				</div>
 				<div class="container p-3">
 					<p class="text-center fs-2">Key Features of our Project</p>
 
 					<div class="row">
-						<div class="col-md-8 p-5">
+						<div class="col-md-12 p-7">
 							<div class="row">
 								<div class="col-md-6">
 									<div class="card paint-card">
@@ -100,6 +101,66 @@
 					</div>
 				</div>
 			</div>
+	</div>
+
+	<hr>
+
+	<div class="container p-2">
+		<p class="text-center fs-2 ">Our Team</p>
+		
+		<div class="row">
+			<div class="col-md-2">
+				<div class="card paint-card">
+					<div class="card-body text-center">
+						<img src="img/img1.jpeg" width="200px" height="300px">
+						<p class="fw-bold fs-5">Samuani Simi</p>
+						<p class="fs-7">(CEO & Chairman)</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2">
+				<div class="card paint-card">
+					<div class="card-body text-center">
+						<img src="img/img2.jpeg" width="200px" height="300px">
+						<p class="fw-bold fs-5">Dr.Siva Kumar</p>
+						<p class="fs-7">(Chief Doctor)</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2">
+				<div class="card paint-card">
+					<div class="card-body text-center">
+						<img src="img/img3.jpeg" width="200px" height="300px">
+						<p class="fw-bold fs-5">Dr. Niuise Paule</p>
+						<p class="fs-7">(Chief Doctor)</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-2">
+				<div class="card paint-card">
+					<div class="card-body text-center">
+						<img src="img/img4.png" width="200px" height="300px">
+						<p class="fw-bold fs-5">Dr. Mathue Samuel</p>
+						<p class="fs-7">(Chief Doctor)</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="card paint-card">
+					<div class="card-body text-center">
+						<img src="img/img5.png" width="200px" height="300px">
+						<p class="fw-bold fs-5">Dr. Mathue Samuel</p>
+						<p class="fs-7">(Chief Doctor)</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
 			<div>
 			<%@include file="component/footer.jsp" %>
 			</div>	
