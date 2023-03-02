@@ -1,10 +1,11 @@
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Docotr Login Page</title>
+<title>Doctor Login Page</title>
 <%@include file="component/allcss.jsp"%>
 <style type="text/css">
 .paint-card {
@@ -22,12 +23,12 @@
 						<p class="fs-4 text-center">Doctor Login</p>
 						<form action="doctorLogin" method="post">
 							<div class="mb-3">
-								<label class="form-label">Name</label> <input required
-									name="name" type="text" class="form-control">
-							</div>
-							<div class="mb-3">
 								<label class="form-label">Doctor ID</label> <input required
 									name="doc_id" type="number" class="form-control">
+							</div>
+							<div class="mb-3">
+								<label class="form-label">Name</label> <input required
+									name="name" type="text" class="form-control">
 							</div>
 							<div class="mb-3">
 								<label class="form-label">Email address</label> <input required

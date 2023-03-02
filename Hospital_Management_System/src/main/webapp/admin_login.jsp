@@ -22,12 +22,12 @@
 						<p class="fs-4 text-center">Admin Login</p>
 						<form action="doctorLogin" method="post">
 							<div class="mb-3">
-								<label class="form-label">Name</label> <input required
-									name="name" type="text" class="form-control">
+								<label class="form-label">Admin</label> <input required
+									name="doc_id" type="number" class="form-control">
 							</div>
 							<div class="mb-3">
-								<label class="form-label">User ID</label> <input required
-									name="doc_id" type="number" class="form-control">
+								<label class="form-label">Name</label> <input required
+									name="name" type="text" class="form-control">
 							</div>
 							<div class="mb-3">
 								<label class="form-label">Email address</label> <input required
