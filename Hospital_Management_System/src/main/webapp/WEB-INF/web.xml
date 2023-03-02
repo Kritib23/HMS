@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>user_register</servlet-name>
+  	<display-name>user_register</display-name>
+  	<description></description>
+  	<servlet-class>com.user.servlet.user_register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>user_register</servlet-name>
+  	<url-pattern>/user_register</url-pattern>
+  </servlet-mapping>
 </web-app>

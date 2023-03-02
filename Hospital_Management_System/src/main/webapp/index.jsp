@@ -1,6 +1,5 @@
 <%@page import="com.db.DBconnect"%>
 <%@page import="java.sql.Connection"%>
-<%-- <%@page import="com.dao.DoctorDao"%> --%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 	<!DOCTYPE html>
 	<html>
@@ -18,11 +17,6 @@
 
 	<body>
 		<%@include file="component/navbar.jsp" %>
-		
-		<% Connection conn=DBconnect.getConn();
-		out.print(conn);
-		%>
-		
 			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 				<div class="carousel-indicators">
 					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
@@ -32,7 +26,7 @@
 					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
 						aria-label="Slide 3"></button>
 				</div>
-				<!-- <div class="carousel-inner">
+				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<img src="img/img1.jpeg" class="d-block w-100" alt="..." height="500px" />
 					</div>
@@ -53,7 +47,7 @@
 					<span class="carousel-control-next-icon" aria-hidden="true"></span>
 					<span class="visually-hidden">Next</span>
 				</button>
-				</div> -->
+				</div>
 				<div class="container p-3">
 					<p class="text-center fs-2">Key Features of our Project</p>
 
@@ -113,7 +107,7 @@
 
 	<hr>
 
-	<!-- <div class="container p-2">
+	<div class="container p-2">
 		<p class="text-center fs-2 ">Our Team</p>
 		
 		<div class="row">
@@ -169,7 +163,7 @@
 		</div>
 
 	</div>
- -->			<div>
+			<div>
 			<%@include file="component/footer.jsp" %>
 			</div>	
 	</body>

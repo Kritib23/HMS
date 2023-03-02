@@ -24,7 +24,7 @@
 						<form action="doctorLogin" method="post">
 							<div class="mb-3">
 								<label class="form-label">Doctor ID</label> <input required
-									name="doc_id" type="number" class="form-control">
+									name="doc_id" type="text" class="form-control">
 							</div>
 							<div class="mb-3">
 								<label class="form-label">Name</label> <input required
@@ -40,6 +40,8 @@
 							</div>
 							<button type="submit" class="btn bg-success text-white col-md-12">Login</button>
 						</form>
+						<br> Don't have an account? <a href="signup.jsp"
+							class="text-decoration-none"> create one</a>
 					</div>
 				</div>
 			</div>

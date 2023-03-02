@@ -13,7 +13,7 @@ import com.dao.UserDao;
 import com.db.DBconnect;
 import com.entity.User;
 
-@WebServlet("/user_register")
+@WebServlet("/UserRegister")
 public class UserRegister extends HttpServlet {
 
 	@Override
@@ -24,23 +24,27 @@ public class UserRegister extends HttpServlet {
 			String fullName = req.getParameter("fullname");
 			String email = req.getParameter("email");
 			String password = req.getParameter("password");
-
+			
+			System.out.print("11");
 			User u = new User(id,fullName, email, password);
 
 			UserDao dao = new UserDao(DBconnect.getConn());
-
-			HttpSession session = req.getSession();
+			System.out.print("1");
+//			HttpSession session = req.getSession();
 
 			boolean f = dao.register(u);
-
+			System.out.print("Registeration successful1");
 			if (f) {
-
-				session.setAttribute("sucMsg", "Register Sucessfully");
-				resp.sendRedirect("signup.jsp");
+                System.out.print("Registeration successful");
+				/*
+				 * session.setAttribute("sucMsg", "Register Sucessfully");
+				 * resp.sendRedirect("signup.jsp");
+				 */
 
 			} else {
-				session.setAttribute("errorMsg", "Something wrong on server");
-				resp.sendRedirect("signup.jsp");
+//				session.setAttribute("errorMsg", "Something wrong on server");
+//				resp.sendRedirect("signup.jsp");
+				System.out.println("Error in ") ; 
 			}
 
 		} catch (Exception e) {
